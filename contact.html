@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - Hands Website</title>
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+  </head>
+  <body>
+    <header>
+      <img
+      src="./assets/Hands are cool.png"
+      alt="Logo with text'hands are cool'"
+      height="200"
+      width="200"
+    />
+      <h1>Contact Us</h1>
+    </header>
+
+    <details>
+      <summary>Navigation</summary>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="anatomy.html">Hand Anatomy</a></li>
+          <li><a href="functions.html">Functions of Hands</a></li>
+          <li><a href="culture.html">Cultural Significance</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </details>
+    <hr color="grey" />
+    <main>
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or want to get in touch? Fill out the form below.</p>
+        <form action="submit_form.php" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <hr color="grey" />
+    <footer>
+      <p>&copy; 2024 Hands Website. All rights reserved.</p>
+      <button><a href="#">Back To The Top</a></button>
+    </footer>
+  </body>
+</html>
